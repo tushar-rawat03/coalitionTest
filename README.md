@@ -23,6 +23,10 @@ A responsive patient dashboard application built as part of the Coalition Techno
 
 The main goal of this project was to accurately recreate the Adobe XD design and dynamically populate the UI using the Coalition Technologies Patient Data API while following clean coding practices and responsive design principles.
 
+🚀 Deployment
+The project is live and accessible at https://healthcareanalyticsdashboard.netlify.app/
+
+
 ## Run Locally
 
 1. Install dependencies
