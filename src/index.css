@@ -1,0 +1,71 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f6f7f8 !important;
+}
+
+/* PATIENT LIST */
+.scrollable-container {
+  background-color: #e3e4e6;
+  max-height: 950px;
+  overflow-y: auto;
+}
+
+.scrollable-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: #072635;
+  border-radius: 10px;
+}
+
+/* INSIDE DIAGNOSITIC LIST */
+.scrollable-container-diagnostic {
+  background-color: #e3e4e6;
+  max-height: 160px;
+  overflow-y: auto;
+}
+
+.scrollable-container-diagnostic::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollable-container-diagnostic::-webkit-scrollbar-thumb {
+  background-color: #072635;
+  border-radius: 10px;
+}
+
+/* INSIDE LAB RESULTS */
+.scrollable-container-labresult {
+  background-color: #e3e4e6;
+  max-height: 160px;
+  overflow-y: auto;
+}
+
+.scrollable-container-labresult::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollable-container-labresult::-webkit-scrollbar-thumb {
+  background-color: #072635;
+  border-radius: 10px;
+}
+
+/* DIAGNOSIS CARDS */
+.respiratoryrate {
+  background-color: #e0f3fa;
+}
+
+.temperaturerate {
+  background-color: #ffe6e9;
+}
+
+.heartrate {
+  background-color: #ffe6e1;
+}
